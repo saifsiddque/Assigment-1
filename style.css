@@ -181,3 +181,39 @@ footer{
     padding: 0px;
     margin-left: 10px;
 }
+.team_members{
+    text-align: center;
+    margin-top: 100px;
+}
+.team_members h1{
+    font-size: 40px;
+}
+.team_members p{
+    color: gray;
+    font-size: 18px;
+}
+.team_members .boxes{
+    display: flex;
+}
+.team_members .box{
+    width: 25%;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid;
+    border: 1px ;
+    box-shadow: 0px 0px 15px 1px gray;
+}
+.team_members .box img{
+    width: 200px;
+    height: 250px;
+    border-radius:50% ;
+    border: 5px solid silver;
+}
+.team_members button{
+    padding: 13px 22px;
+    font-size: 18px;
+    border-radius: 7px;
+    color: white;
+    background-color: tomato;
+    border: none;
+}
